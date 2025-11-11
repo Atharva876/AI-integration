@@ -1,6 +1,7 @@
 const PostModle = require("../models/post.model");
 
-function CreatePostsController(req,res){
+async function CreatePostsController(req,res){
+    const file = req.file;
 
 }
 
