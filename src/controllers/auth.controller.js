@@ -24,6 +24,7 @@ async function registerController(req, res) {
     message: "user registered Successfully",
   });
 }
+
 async function loginController(req, res) {
   const { username, password } = req.body;
 
@@ -54,3 +55,4 @@ module.exports = {
   registerController,
   loginController,
 };
+ 
